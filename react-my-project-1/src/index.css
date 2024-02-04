@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  overflow: hidden; /* Prevent scrolling */
+  background-image: url(1.avif);
+}
+
+.clock-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clock {
+  font-size: 10vmin; /* Adjust this value based on your preference */
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 3px 2px black;
+}
